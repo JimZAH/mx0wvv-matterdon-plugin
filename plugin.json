@@ -1,0 +1,38 @@
+{
+    "id": "com.mattermost.server-mastodon",
+    "name": "Mastodon",
+    "server": {
+        "executable": "plugin.exe"
+    },
+    "settings_schema": {
+        "header": "Configure Mastodon plugin",
+        "footer": "Footer: The code for this demo plugin can be found [here](https://github.com/mattermost/mattermost-plugin-demo).",
+        "settings": [
+            {
+                "key": "channel",
+                "display_name": "Set channel ID",
+                "type": "text",
+                "help_text": "The channel in which this can be used!",
+                "placeholder": "ADGHDSF28396423486243",
+                "default": "bujxkdz6aj897bmjt4auz4zd3w"
+            },
+            {
+                "key": "mastodon-user",
+                "display_name": "Set mastodon user email",
+                "type": "text",
+                "help_text": "The account messages are posted to",
+                "placeholder": "abc@example.com",
+                "default": "jim@mx0wvv.org"
+            }
+            ,
+            {
+                "key": "mastodon-password",
+                "display_name": "Set mastodon user password",
+                "type": "text",
+                "help_text": "The account messages are posted to",
+                "placeholder": "asfweir",
+                "default": "sadfjdskljffdsjlk"
+            }
+        ]
+    }
+}
